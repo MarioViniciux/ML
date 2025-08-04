@@ -1,4 +1,4 @@
-Obs:. É necessário criar um arquivo .env e adicionar GOOGLE_API_KEY=<sua_chave_de_api>. É possível adquirir a chave de API em [Google Studio](https://aistudio.google.com/app/apikey)
+Obs:. É necessário criar um arquivo .env e adicionar GOOGLE_API_KEY="<sua_chave_de_api>". É possível adquirir a chave de API em [Google Studio](https://aistudio.google.com/app/apikey)
 
 1. No arquivo gerar_teste.py, vá até a função main (no final do arquivo) e edite o valor da variável 'arquivo', colocando o nome do arquivo que deseja testar. 
 2. No terminal, rode:
