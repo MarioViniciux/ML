@@ -1,0 +1,46 @@
+text,Spoofing,Tampering,Repudiation,Information Disclosure,Denial of Service,Elevation of Privilege
+"Qualquer usuário, mesmo sem estar logado, pode acessar o endpoint /api/v1/system/shutdown e desligar o servidor.",0,0,0,0,1,0
+"A senha do usuário é enviada para o frontend e armazenada em texto puro no localStorage.",0,0,0,1,0,0
+"Um usuário pode editar o perfil de outro trocando o ID no painel, sem verificação de permissão.",0,1,0,0,0,1
+"As ações de exclusão de faturas não são registradas em nenhum log de auditoria.",0,0,1,0,0,0
+"O sistema não verifica se o usuário que pede para resetar a senha é o dono da conta.",1,0,0,0,0,0
+"A API de usuários retorna o hash da senha e o sal junto com o email.",0,0,0,1,0,0
+"Um usuário comum tem acesso de escrita ao diretório de logs do sistema.",0,1,0,0,0,1
+"O sistema exige autenticação de dois fatores para todas as contas de administrador.",0,0,0,0,0,0
+"Os dados são validados no backend e criptografados antes de serem salvos no banco.",0,0,0,0,0,0
+"O sistema permite o upload de arquivos de imagem para o perfil do usuário.",0,0,0,0,0,0
+"A função de upload não tem limite de tamanho de arquivo.",0,0,0,0,1,0
+"O sistema valida rigorosamente se o usuário é o dono da conta antes de qualquer ação.",0,0,0,0,0,0
+"Um usuário pode ver pedidos de outros clientes apenas incrementando o ID do pedido na URL.",0,0,0,1,0,1
+"O login no painel de administrador requer um token MFA (Multi-Factor Authentication) gerado por um aplicativo autenticador.",0,0,0,0,0,0
+"Qualquer usuário, mesmo sem estar logado, pode acessar o endpoint /api/v1/system/shutdown e desligar o servidor.",0,0,0,0,1,0
+"A senha do usuário é enviada para o frontend e armazenada em texto puro no localStorage.",0,0,0,1,0,0
+"Um usuário pode editar o perfil de outro trocando o ID no painel, sem verificação de permissão.",0,1,0,0,0,1
+"As ações de exclusão de faturas não são registradas em nenhum log de auditoria.",0,0,1,0,0,0
+"O sistema não verifica se o usuário que pede para resetar a senha é o dono da conta.",1,0,0,0,0,0
+"A API de usuários retorna o hash da senha e o sal junto com o email.",0,0,0,1,0,0
+"Um usuário comum tem acesso de escrita ao diretório de logs do sistema.",0,1,0,0,0,1
+"A função de upload não tem limite de tamanho de arquivo.",0,0,0,0,1,0
+"Um usuário pode ver pedidos de outros clientes apenas incrementando o ID do pedido na URL.",0,0,0,1,0,1
+"O sistema exige autenticação de dois fatores para todas as contas de administrador.",0,0,0,0,0,0
+"Os dados são validados no backend e criptografados antes de serem salvos no banco.",0,0,0,0,0,0
+"O sistema permite o upload de arquivos de imagem para o perfil do usuário.",0,0,0,0,0,0
+"O sistema valida rigorosamente se o usuário é o dono da conta antes de qualquer ação.",0,0,0,0,0,0
+"O login no painel de administrador requer um token MFA (Multi-Factor Authentication) gerado por um aplicativo autenticador.",0,0,0,0,0,0
+"O sistema usa um checksum (hash) para garantir que os arquivos não foram corrompidos ou alterados durante o upload.",0,0,0,0,0,0
+"Todas as operações financeiras são registradas em uma trilha de auditoria imutável, com carimbo de tempo e IP do usuário.",0,0,0,0,0,0
+"Uma API interna verifica a permissão do usuário e retorna apenas os campos de dados que seu perfil autoriza.",0,0,0,0,0,0
+"A API possui um sistema de rate limiting que bloqueia um endereço de IP após 100 requisições em um minuto.",0,0,0,0,0,0
+"Mesmo que um usuário tente acessar uma URL de administrador, o backend valida a sessão e nega o acesso a usuários não autorizados.",0,0,0,0,0,0
+"A plataforma permite que o usuário altere seu próprio endereço de entrega na sua página de perfil.",0,0,0,0,0,0
+"Os cookies de sessão são marcados como HttpOnly e Secure.",0,0,0,0,0,0
+"O sistema força a troca de senha do usuário a cada 90 dias.",0,0,0,0,0,0
+"O sistema usa um checksum (hash) para garantir que os arquivos não foram corrompidos ou alterados durante o upload.",0,0,0,0,0,0
+"Todas as operações financeiras são registradas em uma trilha de auditoria imutável, com carimbo de tempo e IP do usuário.",0,0,0,0,0,0
+"Uma API interna verifica a permissão do usuário e retorna apenas os campos de dados que seu perfil autoriza.",0,0,0,0,0,0
+"A API possui um sistema de rate limiting que bloqueia um endereço de IP após 100 requisições em um minuto.",0,0,0,0,1,0
+"Mesmo que um usuário tente acessar uma URL de administrador, o backend valida a sessão e nega o acesso a usuários não autorizados.",0,0,0,0,0,0
+"O sistema não possui um mecanismo para detectar e bloquear ataques de força bruta no login.",1,0,0,0,1,0
+"Não há validação no backend para o preço do produto, que é enviado pelo cliente.",0,1,0,0,0,0
+"A criação de contas de usuário não exige confirmação por e-mail.",1,0,0,0,0,0
+"Os logs de erro não registram os parâmetros de entrada que causaram a falha.",0,0,1,0,0,0
